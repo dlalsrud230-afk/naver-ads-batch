@@ -41,11 +41,7 @@ async function getStatsForCampaign(customerId, campaignId, days = 30) {
   const since = new Date();
   since.setDate(since.getDate() - (days - 1));
 
-  const fields = JSON.stringify([
-    'impCnt', 'clkCnt', 'salesAmt', 'ctr', 'avgRnk',
-    'ccnt', 'convAmt', 'ror',
-    'ccnt1', 'convAmt1', 'ror1'
-  ]);
+  const fields = JSON.stringify(['impCnt', 'clkCnt', 'salesAmt', 'ctr', 'avgRnk', 'ccnt', 'convAmt', 'ror']);
   const timeRange = JSON.stringify({ since: formatDate(since), until: formatDate(until) });
 
   const signPath = '/stats';
