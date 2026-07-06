@@ -1,0 +1,12 @@
+[
+  {
+    "customerId": 2473364,
+    "name": "테스트 계정",
+    "error": "(403) {\"apikey\":\"2473364\",\"status\":403,\"type\":\"urn:naver:api:problem:invalid-apikey\",\"title\":\"Invalid API-KEY\",\"detail\":\"API-KEY '2473364' is invalid.\"}"
+  },
+  {
+    "customerId": 2210763,
+    "name": "토로라이프",
+    "error": "(403) {\"apikey\":\"2473364\",\"status\":403,\"type\":\"urn:naver:api:problem:invalid-apikey\",\"title\":\"Invalid API-KEY\",\"detail\":\"API-KEY '2473364' is invalid.\"}"
+  }
+]
