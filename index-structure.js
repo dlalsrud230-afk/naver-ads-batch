@@ -139,8 +139,15 @@ async function collectAccountStructure(acc) {
             const rows = statRes.data || statRes;
             return Array.isArray(rows) ? rows[0] : rows;
           });
+          let savedCount = 0;
           keywords.forEach((kw, i) => {
             const s = kwStats[i];
+            const stats = s && !s.__error ? s : null;
+            // 최근 30일간 노출·클릭·비용이 전혀 없는 키워드는 저장하지 않습니다.
+            // (진단 로직이 어차피 사용하지 않는 데이터라, 저장을 생략해 파일 용량과 로딩 속도를 크게 줄여요)
+            const hasTraffic = stats && ((stats.impCnt || 0) > 0 || (stats.clkCnt || 0) > 0 || (stats.salesAmt || 0) > 0);
+            if (!hasTraffic) return;
+            savedCount++;
             grpEntry.keywords.push({
               nccKeywordId: kw.nccKeywordId,
               keyword: kw.keyword,
@@ -149,10 +156,10 @@ async function collectAccountStructure(acc) {
               matchType: kw.keywordTp || kw.matchType || null,
               bidAmt: kw.bidAmt,
               status: kw.status,
-              stats: s && !s.__error ? s : null,
+              stats,
             });
           });
-          console.log(`      · "${grp.name}" 키워드 ${keywords.length}개 성과 조회 완료`);
+          console.log(`      · "${grp.name}" 키워드 ${keywords.length}개 중 실적 있는 ${savedCount}개 저장`);
         }
 
         campEntry.groups.push(grpEntry);
