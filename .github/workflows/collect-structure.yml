@@ -1,0 +1,27 @@
+name: Collect Naver Ads Structure (Weekly)
+
+on:
+  schedule:
+    - cron: '0 21 * * 6'   # 매주 토요일 21:00 UTC = 일요일 06:00 KST
+  workflow_dispatch: {}
+
+jobs:
+  collect-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install dotenv
+      - run: node index-structure.js
+        env:
+          NAVER_API_KEY: ${{ secrets.NAVER_API_KEY }}
+          NAVER_SECRET_KEY: ${{ secrets.NAVER_SECRET_KEY }}
+      - name: structure.json 자동 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add structure.json
+          git commit -m "auto update structure" || echo "변경 없음"
+          git push
