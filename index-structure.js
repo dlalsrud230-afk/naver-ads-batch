@@ -67,6 +67,17 @@ async function getAggregateStats(customerId, id, days = 30) {
   return apiGet('/stats', queryString, customerId);
 }
 
+// 그룹/키워드 단위 일별 성과 (기간 비교용, 하루 단위로 쪼개서 반환)
+async function getDailyStatsForId(customerId, id, days = 30) {
+  const until = new Date();
+  const since = new Date();
+  since.setDate(since.getDate() - (days - 1));
+  const fields = JSON.stringify(['impCnt', 'clkCnt', 'salesAmt', 'ctr', 'avgRnk', 'ccnt', 'convAmt', 'ror']);
+  const timeRange = JSON.stringify({ since: formatDate(since), until: formatDate(until) });
+  const queryString = `id=${encodeURIComponent(id)}&fields=${encodeURIComponent(fields)}&timeRange=${encodeURIComponent(timeRange)}&timeIncrement=1`;
+  return apiGet('/stats', queryString, customerId);
+}
+
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // 동시에 CONCURRENCY개씩 처리
@@ -111,10 +122,13 @@ function timeLeft() {
 
 const TIME_LIMIT_SIGNAL = '__TIME_LIMIT__';
 
-// 캠페인 > 그룹 > 키워드 구조 + 키워드별 누적 성과 수집 (소재는 수집하지 않음)
+// 캠페인 > 그룹 > 키워드 구조 + 성과 수집 (소재는 수집하지 않음)
+// - 그룹: 비용이 소진된 그룹만 일별 데이터까지 수집 (기간 비교용). 비용 0인 그룹은 스냅샷도 안 만듦
+// - 키워드: 전체는 30일 누적 스냅샷만, 그중 비용 상위 10개 + 전환 상위 10개만 추가로 일별 데이터 수집
 async function collectAccountStructure(acc) {
   const campaigns = await getCampaigns(acc.customerId);
   const structure = [];
+  const keywordIndex = []; // 계정 전체 키워드를 모아뒀다가 나중에 상위 N개를 뽑기 위한 목록
 
   for (const camp of campaigns) {
     const campEntry = { id: camp.nccCampaignId, name: camp.name, groups: [] };
@@ -124,7 +138,7 @@ async function collectAccountStructure(acc) {
       await wait(200);
 
       for (const grp of adgroups) {
-        const grpEntry = { id: grp.nccAdgroupId, name: grp.name, keywords: [] };
+        const grpEntry = { id: grp.nccAdgroupId, name: grp.name, keywords: [], daily: [] };
 
         let keywords = [];
         try {
@@ -133,6 +147,7 @@ async function collectAccountStructure(acc) {
           console.log(`      · "${grp.name}" 키워드 목록 실패: ${e.message}`);
         }
 
+        let groupCost = 0;
         if (keywords.length > 0) {
           const kwStats = await mapWithConcurrency(keywords, 5, async (kw) => {
             const statRes = await getAggregateStats(acc.customerId, kw.nccKeywordId, 30);
@@ -144,11 +159,12 @@ async function collectAccountStructure(acc) {
             const s = kwStats[i];
             const stats = s && !s.__error ? s : null;
             // 최근 30일간 노출·클릭·비용이 전혀 없는 키워드는 저장하지 않습니다.
-            // (진단 로직이 어차피 사용하지 않는 데이터라, 저장을 생략해 파일 용량과 로딩 속도를 크게 줄여요)
+            // (파일 용량과 로딩 속도를 크게 줄여요 — 어차피 트래픽 없는 키워드는 비교할 것도 없어요)
             const hasTraffic = stats && ((stats.impCnt || 0) > 0 || (stats.clkCnt || 0) > 0 || (stats.salesAmt || 0) > 0);
             if (!hasTraffic) return;
             savedCount++;
-            grpEntry.keywords.push({
+            groupCost += stats.salesAmt || 0;
+            const kwEntry = {
               nccKeywordId: kw.nccKeywordId,
               keyword: kw.keyword,
               // 실제 응답 필드명이 다를 수 있어 확장검색/구문검색 판별용으로 추정 필드를 폭넓게 시도합니다.
@@ -157,9 +173,21 @@ async function collectAccountStructure(acc) {
               bidAmt: kw.bidAmt,
               status: kw.status,
               stats,
-            });
+            };
+            grpEntry.keywords.push(kwEntry);
+            keywordIndex.push(kwEntry);
           });
           console.log(`      · "${grp.name}" 키워드 ${keywords.length}개 중 실적 있는 ${savedCount}개 저장`);
+        }
+
+        // 비용이 아예 소진되지 않은 그룹은 일별 데이터를 수집하지 않습니다 (비교할 실적 자체가 없어요).
+        if (groupCost > 0) {
+          try {
+            const grpDailyRes = await getDailyStatsForId(acc.customerId, grp.nccAdgroupId, 30);
+            grpEntry.daily = grpDailyRes.data || grpDailyRes || [];
+          } catch (e) {
+            console.log(`      · "${grp.name}" 그룹 일별 성과 실패: ${e.message}`);
+          }
         }
 
         campEntry.groups.push(grpEntry);
@@ -173,6 +201,34 @@ async function collectAccountStructure(acc) {
       console.log(`    · [구조] "${camp.name}" 그룹 목록 실패: ${e.message}`);
     }
     structure.push(campEntry);
+  }
+
+  // 계정 전체 키워드 중 "비용 상위 10개" + "전환 상위 10개"만 추가로 일별 데이터를 수집합니다.
+  // (키워드가 수천~수만 개라 전부 일별로 받는 건 무리라, 실제로 자주 들여다볼 키워드만 골라서 기간 비교를 지원해요)
+  const topByCost = [...keywordIndex]
+    .filter((k) => (k.stats?.salesAmt || 0) > 0)
+    .sort((a, b) => (b.stats.salesAmt || 0) - (a.stats.salesAmt || 0))
+    .slice(0, 10);
+  const topByConv = [...keywordIndex]
+    .filter((k) => (k.stats?.ccnt || 0) > 0)
+    .sort((a, b) => (b.stats.ccnt || 0) - (a.stats.ccnt || 0))
+    .slice(0, 10);
+
+  const selected = new Map();
+  [...topByCost, ...topByConv].forEach((k) => selected.set(k.nccKeywordId, k));
+
+  if (selected.size > 0) {
+    console.log(`    · 비용/전환 상위 키워드 ${selected.size}개 일별 데이터 수집 중`);
+    for (const kw of selected.values()) {
+      try {
+        const dailyRes = await getDailyStatsForId(acc.customerId, kw.nccKeywordId, 30);
+        kw.daily = dailyRes.data || dailyRes || [];
+      } catch (e) {
+        console.log(`      · "${kw.keyword}" 일별 성과 실패: ${e.message}`);
+      }
+      await wait(120);
+      if (timeLeft() < 5 * 60 * 1000) throw new Error(TIME_LIMIT_SIGNAL);
+    }
   }
 
   return structure;
