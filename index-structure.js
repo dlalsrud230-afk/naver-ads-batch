@@ -242,6 +242,8 @@ async function main() {
   const indexById = {};
   results.forEach((e, i) => { indexById[String(e.customerId)] = i; });
 
+  let allDone = true; // 마지막까지 시간 부족 없이 다 돌았는지 여부
+
   for (const acc of accounts) {
     const prev = existing.find((e) => String(e.customerId) === String(acc.customerId));
 
@@ -255,6 +257,7 @@ async function main() {
 
     if (timeLeft() < 15 * 60 * 1000) {
       console.log(`\n⚠️ 실행 시간이 얼마 남지 않아 "${acc.name}" 이후 계정은 다음 실행에서 이어서 수집합니다.`);
+      allDone = false;
       break;
     }
 
@@ -267,6 +270,7 @@ async function main() {
     } catch (err) {
       if (err.message === TIME_LIMIT_SIGNAL) {
         console.log(`  → 시간 부족으로 이 계정 수집을 중단합니다. (진행 중이던 이 계정은 다음 실행에서 처음부터 다시 수집)`);
+        allDone = false;
         break;
       }
       console.log(`  → 실패: ${err.message}`);
@@ -288,7 +292,15 @@ async function main() {
   }
 
   saveStructure(results);
-  console.log('\n전체 결과가 structure.json 파일에 저장되었습니다.');
+
+  if (allDone) {
+    console.log('\n✅ 전체 계정 수집이 완료되었습니다. structure.json에 저장되었습니다.');
+  } else {
+    console.log('\n⏸️ 시간 제한으로 이번 실행에서 다 끝내지 못했습니다. 워크플로우가 이어서 자동으로 재실행합니다.');
+    // 워크플로우(collect-structure.yml)가 이 종료 코드를 보고 자기 자신을 다시 실행시킵니다.
+    process.exitCode = 3;
+  }
 }
 
 main();
+
