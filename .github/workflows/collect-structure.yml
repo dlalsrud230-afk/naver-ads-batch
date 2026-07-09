@@ -5,6 +5,10 @@ on:
     - cron: '0 21 * * 6'   # 매주 토요일 21:00 UTC = 일요일 06:00 KST
   workflow_dispatch: {}
 
+permissions:
+  contents: write   # structure.json 커밋/푸시용
+  actions: write     # 시간 부족 시 자기 자신을 다시 실행시키기 위함
+
 jobs:
   collect-structure:
     runs-on: ubuntu-latest
@@ -14,14 +18,28 @@ jobs:
         with:
           node-version: 20
       - run: npm install dotenv
-      - run: node index-structure.js
+
+      - name: 구조 수집 실행
+        id: collect
+        continue-on-error: true   # 시간 부족으로 exit code 3이 나와도 이후 단계는 계속 진행
+        run: node index-structure.js
         env:
           NAVER_API_KEY: ${{ secrets.NAVER_API_KEY }}
           NAVER_SECRET_KEY: ${{ secrets.NAVER_SECRET_KEY }}
+
       - name: structure.json 자동 커밋
+        if: always()   # 시간 부족으로 중단됐어도 그때까지 수집된 내용은 저장
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add structure.json
           git commit -m "auto update structure" || echo "변경 없음"
           git push
+
+      - name: 아직 다 못 끝났으면 이어서 자동 재실행
+        if: steps.collect.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "시간 제한으로 이번 실행에서 다 못 끝냈습니다. 이어서 자동으로 다시 실행합니다."
+          gh workflow run collect-structure.yml --ref ${{ github.ref_name }}
