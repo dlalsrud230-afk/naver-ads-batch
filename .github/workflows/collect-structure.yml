@@ -9,6 +9,10 @@ permissions:
   contents: write   # structure.json 커밋/푸시용
   actions: write     # 시간 부족 시 자기 자신을 다시 실행시키기 위함
 
+concurrency:
+  group: collect-structure
+  cancel-in-progress: false   # 이미 도는 실행이 있으면 새 실행은 줄 서서 기다림 (동시에 push 경합 방지)
+
 jobs:
   collect-structure:
     runs-on: ubuntu-latest
@@ -34,6 +38,8 @@ jobs:
           git config user.email "actions@github.com"
           git add structure.json
           git commit -m "auto update structure" || echo "변경 없음"
+          git fetch origin main
+          git merge -X ours origin/main --no-edit || echo "병합 충돌 없음 또는 로컬 우선 처리"
           git push
 
       - name: 아직 다 못 끝났으면 이어서 자동 재실행
