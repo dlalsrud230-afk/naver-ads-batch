@@ -258,5 +258,10 @@
   {
     "customerId": 3796800,
     "name": "오티비(메인)"
-  }
+  },
+  { "customerId": 1814230, "name": "해피애견상조" },
+  { "customerId": 3482870, "name": "서미온" },
+  { "customerId": 1635784, "name": "씨엔에스테크" },
+  { "customerId": 3193215, "name": "삼성콤프레샤" },
+  { "customerId": 353103, "name": "아이원" }
 ]
