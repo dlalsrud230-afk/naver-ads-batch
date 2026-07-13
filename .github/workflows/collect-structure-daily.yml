@@ -1,0 +1,39 @@
+name: Collect Naver Ads Structure (Daily Refresh)
+
+on:
+  schedule:
+    - cron: '30 21 * * *'   # 매일 21:30 UTC = 매일 06:30 KST (캠페인 수집 30분 뒤로 잡아 겹치지 않게)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-structure   # 주간 전체 수집(collect-structure.yml)과 같은 그룹 → 절대 동시에 안 돌고 줄 서서 실행됨
+  cancel-in-progress: false
+
+jobs:
+  daily-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install dotenv
+
+      - name: 그룹/키워드 일별 데이터만 가볍게 갱신
+        run: node index-structure-daily.js
+        env:
+          NAVER_API_KEY: ${{ secrets.NAVER_API_KEY }}
+          NAVER_SECRET_KEY: ${{ secrets.NAVER_SECRET_KEY }}
+
+      - name: structure.json 자동 커밋
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add structure.json
+          git commit -m "auto daily structure refresh" || echo "변경 없음"
+          git fetch origin main
+          git merge -X ours origin/main --no-edit || echo "병합 충돌 없음 또는 로컬 우선 처리"
+          git push
