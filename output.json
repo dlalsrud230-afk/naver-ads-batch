@@ -14,10 +14,10 @@
         "usePeriod": false,
         "dailyBudget": 600000,
         "useDailyBudget": true,
-        "totalChargeCost": 64573,
+        "totalChargeCost": 44096,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 729,
+        "expectCost": 65,
         "migType": 0,
         "delFlag": false,
         "regTm": "2016-06-22T04:20:14.000Z",
@@ -26,7 +26,7 @@
         "sharedBudgetName": "캠페인_공유예산#1",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 800000,
-        "sharedBudgetExpectCost": 729,
+        "sharedBudgetExpectCost": 65,
         "sharedBudgetLock": false,
         "numberInUse": 1
       }
@@ -385,16 +385,16 @@
             "salesAmt": 532507
           },
           {
-            "ctr": 6.74,
-            "convAmt": 28,
-            "clkCnt": 175,
-            "ror": 0.06,
+            "ctr": 7.62,
+            "convAmt": 194,
+            "clkCnt": 1236,
+            "ror": 0.05,
             "dateStart": "2026-10-03",
-            "ccnt": 28,
-            "avgRnk": 1.9,
+            "ccnt": 194,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 2595,
-            "salesAmt": 49008
+            "impCnt": 16221,
+            "salesAmt": 360378
           }
         ]
       }
@@ -427,7 +427,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -454,7 +454,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -481,7 +481,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -529,7 +529,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -556,7 +556,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -571,10 +571,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 7299,
+        "totalChargeCost": 3903,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 233,
+        "expectCost": 638,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-07-03T04:12:54.000Z",
@@ -583,7 +583,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -610,7 +610,7 @@
         "sharedBudgetName": "일6.8 / 월200",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 68000,
-        "sharedBudgetExpectCost": 233,
+        "sharedBudgetExpectCost": 638,
         "sharedBudgetLock": false,
         "numberInUse": 7
       },
@@ -3261,16 +3261,16 @@
             "salesAmt": 36044
           },
           {
-            "ctr": 0.05,
+            "ctr": 0.1,
             "convAmt": 0,
-            "clkCnt": 11,
+            "clkCnt": 51,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.5,
+            "avgRnk": 2.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 24101,
-            "salesAmt": 5666
+            "impCnt": 53340,
+            "salesAmt": 26110
           }
         ]
       },
@@ -7928,7 +7928,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 70,
+        "expectCost": 69,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-10-30T05:02:02.000Z",
@@ -8010,10 +8010,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 2295,
+        "totalChargeCost": 680,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 956,
+        "expectCost": 679,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-02-03T09:12:06.000Z",
@@ -8054,10 +8054,10 @@
         "usePeriod": false,
         "dailyBudget": 50000,
         "useDailyBudget": true,
-        "totalChargeCost": 4112,
+        "totalChargeCost": 11625,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 860,
+        "expectCost": 1721,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-05-21T12:51:45.000Z",
@@ -8812,9 +8812,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 9,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -9544,9 +9544,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 1,
             "salesAmt": 0
           }
         ]
@@ -9904,16 +9904,16 @@
             "salesAmt": 70
           },
           {
-            "ctr": 0,
+            "ctr": 2.21,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 29,
-            "salesAmt": 0
+            "impCnt": 136,
+            "salesAmt": 211
           }
         ]
       },
@@ -11368,16 +11368,16 @@
             "salesAmt": 5626
           },
           {
-            "ctr": 0.22,
+            "ctr": 0.58,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 7,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.9,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 906,
-            "salesAmt": 1338
+            "impCnt": 1212,
+            "salesAmt": 5085
           }
         ]
       },
@@ -12100,16 +12100,16 @@
             "salesAmt": 37591
           },
           {
-            "ctr": 1.23,
-            "convAmt": 0,
-            "clkCnt": 5,
-            "ror": 0,
+            "ctr": 1.63,
+            "convAmt": 3800000,
+            "clkCnt": 46,
+            "ror": 8737.02,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 1.6,
+            "ccnt": 3,
+            "avgRnk": 2.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 408,
-            "salesAmt": 3250
+            "impCnt": 2827,
+            "salesAmt": 43493
           }
         ]
       },
@@ -12593,7 +12593,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 3642,
+        "expectCost": 16566,
         "migType": 0,
         "delFlag": false,
         "regTm": "2019-12-08T04:48:14.000Z",
@@ -12719,7 +12719,7 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 22,
+        "totalChargeCost": 27,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
         "expectCost": 1,
@@ -12740,10 +12740,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": true,
-        "totalChargeCost": 0,
+        "totalChargeCost": 5367,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 5397,
+        "expectCost": 5366,
         "migType": 0,
         "delFlag": false,
         "regTm": "2021-07-01T07:40:05.000Z",
@@ -13111,9 +13111,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.5,
+            "avgRnk": 2.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 24,
+            "impCnt": 189,
             "salesAmt": 0
           }
         ]
@@ -13477,9 +13477,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.6,
+            "avgRnk": 5.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 5,
+            "impCnt": 80,
             "salesAmt": 0
           }
         ]
@@ -13843,9 +13843,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1,
+            "avgRnk": 3,
             "dateEnd": "2026-10-03",
-            "impCnt": 2,
+            "impCnt": 12,
             "salesAmt": 0
           }
         ]
@@ -14209,9 +14209,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 6.3,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 18,
+            "impCnt": 106,
             "salesAmt": 0
           }
         ]
@@ -14569,16 +14569,16 @@
             "salesAmt": 18943
           },
           {
-            "ctr": 0,
+            "ctr": 1.06,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 5,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2,
+            "avgRnk": 2.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 61,
-            "salesAmt": 0
+            "impCnt": 470,
+            "salesAmt": 50642
           }
         ]
       },
@@ -14941,9 +14941,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.2,
+            "avgRnk": 2.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 5,
+            "impCnt": 27,
             "salesAmt": 0
           }
         ]
@@ -15307,9 +15307,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.3,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 28,
+            "impCnt": 154,
             "salesAmt": 0
           }
         ]
@@ -15673,9 +15673,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.9,
+            "avgRnk": 2.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 19,
+            "impCnt": 61,
             "salesAmt": 0
           }
         ]
@@ -16771,10 +16771,10 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.8,
+            "avgRnk": 1.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 17,
-            "salesAmt": 8
+            "impCnt": 81,
+            "salesAmt": 42
           }
         ]
       },
@@ -17131,16 +17131,16 @@
             "salesAmt": 15059
           },
           {
-            "ctr": 0,
+            "ctr": 1.04,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.6,
+            "avgRnk": 2.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 28,
-            "salesAmt": 0
+            "impCnt": 289,
+            "salesAmt": 15670
           }
         ]
       }
@@ -17205,10 +17205,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 10323,
+        "totalChargeCost": 3271,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2405,
+        "expectCost": 497,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-09-10T05:08:59.000Z",
@@ -18302,16 +18302,16 @@
             "salesAmt": 55952
           },
           {
-            "ctr": 3.4,
+            "ctr": 0.58,
             "convAmt": 0,
-            "clkCnt": 5,
+            "clkCnt": 49,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 147,
-            "salesAmt": 3822
+            "impCnt": 8478,
+            "salesAmt": 66331
           }
         ]
       }
@@ -27329,10 +27329,10 @@
         "usePeriod": false,
         "dailyBudget": 110000,
         "useDailyBudget": true,
-        "totalChargeCost": 39595,
+        "totalChargeCost": 21368,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 590,
+        "expectCost": 1176,
         "migType": 0,
         "delFlag": false,
         "regTm": "2020-12-15T07:30:48.000Z",
@@ -27341,7 +27341,7 @@
         "sharedBudgetName": "캠페인_공유예산#1",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 200000,
-        "sharedBudgetExpectCost": 590,
+        "sharedBudgetExpectCost": 1176,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -27368,7 +27368,7 @@
         "sharedBudgetName": "캠페인_공유예산#1",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 200000,
-        "sharedBudgetExpectCost": 590,
+        "sharedBudgetExpectCost": 1176,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -27383,10 +27383,10 @@
         "usePeriod": false,
         "dailyBudget": 110000,
         "useDailyBudget": true,
-        "totalChargeCost": 9618,
+        "totalChargeCost": 3415,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 340,
+        "expectCost": 411,
         "migType": 0,
         "delFlag": false,
         "regTm": "2023-04-19T04:39:20.000Z",
@@ -27395,7 +27395,7 @@
         "sharedBudgetName": "캠페인_공유예산#1",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 200000,
-        "sharedBudgetExpectCost": 590,
+        "sharedBudgetExpectCost": 1176,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -27818,16 +27818,16 @@
             "salesAmt": 142359
           },
           {
-            "ctr": 1.8,
+            "ctr": 1.43,
             "convAmt": 0,
-            "clkCnt": 67,
+            "clkCnt": 356,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.4,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 3715,
-            "salesAmt": 29933
+            "impCnt": 24827,
+            "salesAmt": 156174
           }
         ]
       },
@@ -28550,16 +28550,16 @@
             "salesAmt": 57415
           },
           {
-            "ctr": 2.67,
+            "ctr": 3.18,
             "convAmt": 0,
-            "clkCnt": 10,
+            "clkCnt": 65,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.5,
+            "avgRnk": 2.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 374,
-            "salesAmt": 6098
+            "impCnt": 2041,
+            "salesAmt": 44841
           }
         ]
       },
@@ -29710,10 +29710,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 0,
+        "totalChargeCost": 14311,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 5637,
+        "expectCost": 14310,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-09-10T01:21:41.000Z",
@@ -29722,7 +29722,7 @@
         "sharedBudgetName": "하이스카이",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 100000,
-        "sharedBudgetExpectCost": 5328,
+        "sharedBudgetExpectCost": 14310,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -29737,10 +29737,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 5329,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 5328,
+        "expectCost": 9198,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-09-10T05:18:42.000Z",
@@ -29749,7 +29749,7 @@
         "sharedBudgetName": "하이스카이",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 100000,
-        "sharedBudgetExpectCost": 5328,
+        "sharedBudgetExpectCost": 14310,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -30517,16 +30517,16 @@
             "salesAmt": 26678
           },
           {
-            "ctr": 0,
+            "ctr": 2.07,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 7,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.9,
+            "avgRnk": 3.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 36,
-            "salesAmt": 0
+            "impCnt": 338,
+            "salesAmt": 44182
           }
         ]
       },
@@ -30883,16 +30883,16 @@
             "salesAmt": 70750
           },
           {
-            "ctr": 0,
+            "ctr": 0.97,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.3,
+            "avgRnk": 2.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 39,
-            "salesAmt": 0
+            "impCnt": 206,
+            "salesAmt": 14527
           }
         ]
       },
@@ -33564,9 +33564,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 6.6,
+            "avgRnk": 4,
             "dateEnd": "2026-10-03",
-            "impCnt": 9,
+            "impCnt": 161,
             "salesAmt": 0
           }
         ]
@@ -37109,9 +37109,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.2,
+            "avgRnk": 3.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 203,
+            "impCnt": 964,
             "salesAmt": 0
           }
         ]
@@ -37134,10 +37134,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 1667,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1666,
+        "expectCost": 3809,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-10-21T14:28:03.000Z",
@@ -37180,7 +37180,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 889,
+        "expectCost": 547,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-11-27T09:17:52.000Z",
@@ -37246,7 +37246,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1310,
+        "expectCost": 1931,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-01-01T14:52:33.000Z",
@@ -37351,7 +37351,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 771,
+        "expectCost": 452,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-05-26T08:36:19.000Z",
@@ -37414,7 +37414,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 455,
+        "expectCost": 663,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-08-31T10:57:42.000Z",
@@ -37541,7 +37541,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2165,
+        "expectCost": 1662,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-04-14T16:02:27.000Z",
@@ -38008,16 +38008,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 3.77,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 53,
+            "salesAmt": 5476
           }
         ]
       },
@@ -38380,9 +38380,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 24,
             "salesAmt": 0
           }
         ]
@@ -38740,16 +38740,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 2.29,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 175,
+            "salesAmt": 4554
           }
         ]
       },
@@ -39112,9 +39112,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 62,
             "salesAmt": 0
           }
         ]
@@ -39478,9 +39478,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 5.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 3,
             "salesAmt": 0
           }
         ]
@@ -39838,16 +39838,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 5,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 4.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 20,
+            "salesAmt": 1932
           }
         ]
       },
@@ -40210,9 +40210,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 6,
             "salesAmt": 0
           }
         ]
@@ -40576,9 +40576,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 5.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -40942,9 +40942,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 5,
             "salesAmt": 0
           }
         ]
@@ -41302,16 +41302,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 4.4,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 4.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 91,
+            "salesAmt": 13468
           }
         ]
       },
@@ -41668,16 +41668,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 4.17,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 48,
+            "salesAmt": 956
           }
         ]
       },
@@ -42040,9 +42040,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 4.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 4,
             "salesAmt": 0
           }
         ]
@@ -42406,9 +42406,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 1.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 13,
             "salesAmt": 0
           }
         ]
@@ -42766,16 +42766,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 14.29,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 5.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 7,
+            "salesAmt": 664
           }
         ]
       },
@@ -43138,9 +43138,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 5.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 3,
             "salesAmt": 0
           }
         ]
@@ -43504,9 +43504,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 8,
             "salesAmt": 0
           }
         ]
@@ -43870,9 +43870,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 3,
             "salesAmt": 0
           }
         ]
@@ -44962,16 +44962,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 100,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 1,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 1,
+            "salesAmt": 1662
           }
         ]
       },
@@ -45700,9 +45700,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 4,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -46066,9 +46066,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 11,
             "salesAmt": 0
           }
         ]
@@ -46432,9 +46432,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 8,
             "salesAmt": 0
           }
         ]
@@ -46798,9 +46798,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 4,
             "salesAmt": 0
           }
         ]
@@ -48801,10 +48801,10 @@
         "usePeriod": false,
         "dailyBudget": 40000,
         "useDailyBudget": true,
-        "totalChargeCost": 3938,
+        "totalChargeCost": 1226,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 691,
+        "expectCost": 628,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-03-10T05:08:34.000Z",
@@ -49208,16 +49208,16 @@
             "salesAmt": 36701
           },
           {
-            "ctr": 0.66,
+            "ctr": 0.98,
             "convAmt": 0,
-            "clkCnt": 3,
+            "clkCnt": 30,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3,
+            "avgRnk": 2.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 452,
-            "salesAmt": 2618
+            "impCnt": 3063,
+            "salesAmt": 30403
           }
         ]
       },
@@ -49970,10 +49970,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 1118,
+        "totalChargeCost": 1745,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1062,
+        "expectCost": 1744,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-02-03T02:08:37.000Z",
@@ -49994,7 +49994,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 95,
+        "expectCost": 164,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-05-06T06:23:57.000Z",
@@ -50356,16 +50356,16 @@
             "salesAmt": 70603
           },
           {
-            "ctr": 0.36,
+            "ctr": 0.25,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 5,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.1,
+            "avgRnk": 1.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 278,
-            "salesAmt": 55
+            "impCnt": 2027,
+            "salesAmt": 6192
           }
         ]
       },
@@ -50722,16 +50722,16 @@
             "salesAmt": 1220
           },
           {
-            "ctr": 0,
+            "ctr": 0.13,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.5,
+            "avgRnk": 4.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 335,
-            "salesAmt": 0
+            "impCnt": 2343,
+            "salesAmt": 794
           }
         ]
       }
@@ -51927,10 +51927,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 12233,
+        "totalChargeCost": 10449,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 439,
+        "expectCost": 717,
         "migType": 0,
         "delFlag": false,
         "regTm": "2023-12-20T02:51:02.000Z",
@@ -51970,10 +51970,10 @@
         "usePeriod": false,
         "dailyBudget": 330000,
         "useDailyBudget": true,
-        "totalChargeCost": 10865,
+        "totalChargeCost": 13795,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 55,
+        "expectCost": 774,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-01-08T06:40:22.000Z",
@@ -52357,16 +52357,16 @@
             "salesAmt": 53987
           },
           {
-            "ctr": 4.23,
-            "convAmt": 0,
-            "clkCnt": 19,
-            "ror": 0,
+            "ctr": 5.02,
+            "convAmt": 2488000,
+            "clkCnt": 126,
+            "ror": 4256.33,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
+            "ccnt": 8,
             "avgRnk": 2.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 449,
-            "salesAmt": 11331
+            "impCnt": 2512,
+            "salesAmt": 58454
           }
         ]
       },
@@ -53089,16 +53089,16 @@
             "salesAmt": 43320
           },
           {
-            "ctr": 2.7,
-            "convAmt": 0,
-            "clkCnt": 23,
-            "ror": 0,
+            "ctr": 3.1,
+            "convAmt": 9396600,
+            "clkCnt": 123,
+            "ror": 18197.24,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 5.1,
+            "ccnt": 14,
+            "avgRnk": 4.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 852,
-            "salesAmt": 9627
+            "impCnt": 3964,
+            "salesAmt": 51638
           }
         ]
       },
@@ -53618,10 +53618,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 1504,
+        "totalChargeCost": 16308,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1503,
+        "expectCost": 9491,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-05-21T06:01:07.000Z",
@@ -53693,10 +53693,10 @@
         "usePeriod": false,
         "dailyBudget": 40000,
         "useDailyBudget": true,
-        "totalChargeCost": 8225,
+        "totalChargeCost": 4123,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1167,
+        "expectCost": 415,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-05-22T04:48:32.000Z",
@@ -53705,7 +53705,7 @@
         "sharedBudgetName": "파컨_주말",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 90000,
-        "sharedBudgetExpectCost": 1167,
+        "sharedBudgetExpectCost": 415,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -53720,10 +53720,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 778,
+        "totalChargeCost": 608,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 777,
+        "expectCost": 607,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-06-05T07:42:28.000Z",
@@ -53732,7 +53732,7 @@
         "sharedBudgetName": "파컨_주말",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 90000,
-        "sharedBudgetExpectCost": 1167,
+        "sharedBudgetExpectCost": 415,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -56308,16 +56308,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0.14,
+            "ctr": 0.36,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 13,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 5.2,
+            "avgRnk": 4.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 729,
-            "salesAmt": 1504
+            "impCnt": 3626,
+            "salesAmt": 35411
           }
         ]
       },
@@ -57406,16 +57406,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0.3,
+            "ctr": 0.39,
             "convAmt": 0,
-            "clkCnt": 7,
+            "clkCnt": 42,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.3,
+            "avgRnk": 1.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 2296,
-            "salesAmt": 4962
+            "impCnt": 10701,
+            "salesAmt": 48229
           }
         ]
       },
@@ -57772,15 +57772,15 @@
             "salesAmt": 0
           },
           {
-            "ctr": 1.43,
+            "ctr": 0.39,
             "convAmt": 0,
             "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.3,
+            "avgRnk": 1.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 70,
+            "impCnt": 254,
             "salesAmt": 778
           }
         ]
@@ -67916,10 +67916,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": false,
-        "totalChargeCost": 20441,
+        "totalChargeCost": 4612,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 632,
+        "expectCost": 1678,
         "migType": 0,
         "delFlag": false,
         "regTm": "2017-10-07T11:51:20.000Z",
@@ -68647,16 +68647,16 @@
             "salesAmt": 76928
           },
           {
-            "ctr": 1.78,
+            "ctr": 1.15,
             "convAmt": 0,
-            "clkCnt": 4,
+            "clkCnt": 17,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 1.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 225,
-            "salesAmt": 19808
+            "impCnt": 1484,
+            "salesAmt": 33916
           }
         ]
       }
@@ -68692,10 +68692,10 @@
         "usePeriod": false,
         "dailyBudget": 50000,
         "useDailyBudget": true,
-        "totalChargeCost": 2844,
+        "totalChargeCost": 3386,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 339,
+        "expectCost": 275,
         "migType": 0,
         "delFlag": false,
         "regTm": "2022-07-15T07:04:00.000Z",
@@ -68863,7 +68863,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 153,
+        "expectCost": 55,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-08-25T02:05:15.000Z",
@@ -68881,10 +68881,10 @@
         "usePeriod": false,
         "dailyBudget": 50000,
         "useDailyBudget": true,
-        "totalChargeCost": 842,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 841,
+        "expectCost": 493,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-08-25T02:05:28.000Z",
@@ -68902,10 +68902,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": true,
-        "totalChargeCost": 5573,
+        "totalChargeCost": 1659,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1807,
+        "expectCost": 1658,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-08-29T02:54:57.000Z",
@@ -69137,7 +69137,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 922,
+        "expectCost": 2025,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-09-03T07:19:12.000Z",
@@ -69200,10 +69200,10 @@
         "usePeriod": false,
         "dailyBudget": 20000,
         "useDailyBudget": true,
-        "totalChargeCost": 670,
+        "totalChargeCost": 2042,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 514,
+        "expectCost": 545,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-09-03T07:34:05.000Z",
@@ -69222,10 +69222,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 803,
+        "totalChargeCost": 1453,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 803,
+        "expectCost": 786,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-09-03T07:34:19.000Z",
@@ -69460,10 +69460,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": true,
-        "totalChargeCost": 2231,
+        "totalChargeCost": 3811,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 784,
+        "expectCost": 786,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-02-27T04:35:47.000Z",
@@ -69527,7 +69527,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 894,
+        "expectCost": 840,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-06-01T09:01:53.000Z",
@@ -69889,16 +69889,16 @@
             "salesAmt": 9934
           },
           {
-            "ctr": 0.62,
+            "ctr": 0.84,
             "convAmt": 0,
-            "clkCnt": 5,
+            "clkCnt": 31,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.3,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 809,
-            "salesAmt": 1786
+            "impCnt": 3689,
+            "salesAmt": 9688
           }
         ]
       },
@@ -72817,16 +72817,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 0.48,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 9.4,
+            "avgRnk": 9.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 49,
-            "salesAmt": 0
+            "impCnt": 210,
+            "salesAmt": 55
           }
         ]
       },
@@ -73183,16 +73183,16 @@
             "salesAmt": 3152
           },
           {
-            "ctr": 4.76,
-            "convAmt": 0,
-            "clkCnt": 1,
-            "ror": 0,
+            "ctr": 2.14,
+            "convAmt": 68700,
+            "clkCnt": 4,
+            "ror": 2509.78,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 17.3,
+            "ccnt": 1,
+            "avgRnk": 10.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 21,
-            "salesAmt": 842
+            "impCnt": 187,
+            "salesAmt": 2737
           }
         ]
       },
@@ -73549,16 +73549,16 @@
             "salesAmt": 23733
           },
           {
-            "ctr": 0.28,
-            "convAmt": 0,
-            "clkCnt": 1,
-            "ror": 0,
+            "ctr": 0.96,
+            "convAmt": 249000,
+            "clkCnt": 10,
+            "ror": 1569.21,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 5.2,
+            "ccnt": 1,
+            "avgRnk": 7.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 356,
-            "salesAmt": 1764
+            "impCnt": 1041,
+            "salesAmt": 15868
           }
         ]
       },
@@ -73921,9 +73921,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 14.3,
+            "avgRnk": 8.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 10,
+            "impCnt": 43,
             "salesAmt": 0
           }
         ]
@@ -74287,9 +74287,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 9.4,
+            "avgRnk": 10.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 42,
+            "impCnt": 121,
             "salesAmt": 0
           }
         ]
@@ -74653,9 +74653,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 6.2,
+            "avgRnk": 6.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 58,
+            "impCnt": 127,
             "salesAmt": 0
           }
         ]
@@ -75019,9 +75019,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 6.7,
+            "avgRnk": 4.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 69,
+            "impCnt": 309,
             "salesAmt": 0
           }
         ]
@@ -77575,16 +77575,16 @@
             "salesAmt": 2838
           },
           {
-            "ctr": 0,
+            "ctr": 0.4,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 3.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 105,
-            "salesAmt": 0
+            "impCnt": 501,
+            "salesAmt": 3530
           }
         ]
       },
@@ -78673,16 +78673,16 @@
             "salesAmt": 7877
           },
           {
-            "ctr": 1.28,
-            "convAmt": 0,
-            "clkCnt": 2,
-            "ror": 0,
+            "ctr": 1.19,
+            "convAmt": 89000,
+            "clkCnt": 12,
+            "ror": 1713.95,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 6.1,
+            "ccnt": 1,
+            "avgRnk": 6,
             "dateEnd": "2026-10-03",
-            "impCnt": 156,
-            "salesAmt": 669
+            "impCnt": 1006,
+            "salesAmt": 5193
           }
         ]
       },
@@ -79039,16 +79039,16 @@
             "salesAmt": 2291
           },
           {
-            "ctr": 0,
+            "ctr": 1.8,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 7,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 14.8,
+            "avgRnk": 11,
             "dateEnd": "2026-10-03",
-            "impCnt": 61,
-            "salesAmt": 0
+            "impCnt": 389,
+            "salesAmt": 5273
           }
         ]
       },
@@ -83065,16 +83065,16 @@
             "salesAmt": 16982
           },
           {
-            "ctr": 1.05,
-            "convAmt": 0,
-            "clkCnt": 2,
-            "ror": 0,
+            "ctr": 1.08,
+            "convAmt": 149000,
+            "clkCnt": 12,
+            "ror": 2087.02,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 5.2,
+            "ccnt": 1,
+            "avgRnk": 5.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 190,
-            "salesAmt": 1445
+            "impCnt": 1112,
+            "salesAmt": 7139
           }
         ]
       },
@@ -83437,9 +83437,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 15,
+            "avgRnk": 14.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 23,
+            "impCnt": 37,
             "salesAmt": 0
           }
         ]
@@ -83803,9 +83803,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 11.3,
+            "avgRnk": 10.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 77,
+            "impCnt": 203,
             "salesAmt": 0
           }
         ]
@@ -84163,16 +84163,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 1.14,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 7.1,
+            "avgRnk": 8.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 35,
-            "salesAmt": 0
+            "impCnt": 88,
+            "salesAmt": 841
           }
         ]
       }
@@ -84193,10 +84193,10 @@
         "usePeriod": false,
         "dailyBudget": 20000,
         "useDailyBudget": true,
-        "totalChargeCost": 143,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 142,
+        "expectCost": 4610,
         "migType": 0,
         "delFlag": false,
         "regTm": "2020-04-07T02:07:32.000Z",
@@ -84205,7 +84205,7 @@
         "sharedBudgetName": "miicon 공유예산",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 60000,
-        "sharedBudgetExpectCost": 142,
+        "sharedBudgetExpectCost": 352,
         "sharedBudgetLock": false,
         "numberInUse": 5
       },
@@ -84223,7 +84223,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1908,
+        "expectCost": 2015,
         "migType": 0,
         "delFlag": false,
         "regTm": "2023-01-19T02:46:04.000Z",
@@ -84232,7 +84232,7 @@
         "sharedBudgetName": "miicon 공유예산",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 60000,
-        "sharedBudgetExpectCost": 142,
+        "sharedBudgetExpectCost": 352,
         "sharedBudgetLock": false,
         "numberInUse": 5
       },
@@ -84271,7 +84271,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1106,
+        "expectCost": 1393,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-03-09T05:40:04.000Z",
@@ -84280,7 +84280,7 @@
         "sharedBudgetName": "miicon 공유예산",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 60000,
-        "sharedBudgetExpectCost": 142,
+        "sharedBudgetExpectCost": 352,
         "sharedBudgetLock": false,
         "numberInUse": 5
       },
@@ -84298,7 +84298,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 769,
+        "expectCost": 360,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-04-28T03:51:40.000Z",
@@ -84307,7 +84307,7 @@
         "sharedBudgetName": "miicon 공유예산",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 60000,
-        "sharedBudgetExpectCost": 142,
+        "sharedBudgetExpectCost": 352,
         "sharedBudgetLock": false,
         "numberInUse": 5
       },
@@ -84364,10 +84364,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 0,
+        "totalChargeCost": 658,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 3722,
+        "expectCost": 352,
         "migType": 0,
         "delFlag": false,
         "regTm": "2016-06-22T04:20:14.000Z",
@@ -84376,7 +84376,7 @@
         "sharedBudgetName": "miicon 공유예산",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 60000,
-        "sharedBudgetExpectCost": 142,
+        "sharedBudgetExpectCost": 352,
         "sharedBudgetLock": false,
         "numberInUse": 5
       }
@@ -84735,16 +84735,16 @@
             "salesAmt": 5544
           },
           {
-            "ctr": 0,
+            "ctr": 0.4,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 6,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.3,
+            "avgRnk": 3.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 75,
-            "salesAmt": 0
+            "impCnt": 1511,
+            "salesAmt": 11542
           }
         ]
       },
@@ -85101,16 +85101,16 @@
             "salesAmt": 4572
           },
           {
-            "ctr": 0,
+            "ctr": 0.83,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.9,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 18,
-            "salesAmt": 0
+            "impCnt": 483,
+            "salesAmt": 7569
           }
         ]
       },
@@ -85833,16 +85833,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 0.6,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.3,
+            "avgRnk": 4.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 8,
-            "salesAmt": 0
+            "impCnt": 168,
+            "salesAmt": 1393
           }
         ]
       },
@@ -86199,16 +86199,16 @@
             "salesAmt": 770
           },
           {
-            "ctr": 0,
+            "ctr": 0.11,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.8,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 145,
-            "salesAmt": 0
+            "impCnt": 950,
+            "salesAmt": 361
           }
         ]
       },
@@ -86931,15 +86931,15 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 100,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 1,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -87297,16 +87297,16 @@
             "salesAmt": 5049
           },
           {
-            "ctr": 0,
+            "ctr": 0.85,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.3,
+            "avgRnk": 3.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 20,
-            "salesAmt": 0
+            "impCnt": 352,
+            "salesAmt": 5576
           }
         ]
       }
@@ -87857,10 +87857,10 @@
         "usePeriod": false,
         "dailyBudget": 7000,
         "useDailyBudget": true,
-        "totalChargeCost": 156,
+        "totalChargeCost": 106,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 155,
+        "expectCost": 105,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-06-10T03:11:03.000Z",
@@ -96358,16 +96358,16 @@
             "salesAmt": 980
           },
           {
-            "ctr": 1.09,
+            "ctr": 0.3,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.2,
+            "avgRnk": 2.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 92,
-            "salesAmt": 155
+            "impCnt": 656,
+            "salesAmt": 311
           }
         ]
       },
@@ -97828,9 +97828,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 7.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 23,
             "salesAmt": 0
           }
         ]
@@ -104481,10 +104481,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 26659,
+        "totalChargeCost": 36980,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1103,
+        "expectCost": 1248,
         "migType": 0,
         "delFlag": false,
         "regTm": "2019-09-30T02:14:14.000Z",
@@ -104502,10 +104502,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": true,
-        "totalChargeCost": 7280,
+        "totalChargeCost": 5152,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1175,
+        "expectCost": 307,
         "migType": 0,
         "delFlag": false,
         "regTm": "2019-11-11T07:32:59.000Z",
@@ -104930,16 +104930,16 @@
             "salesAmt": 103480
           },
           {
-            "ctr": 1.68,
+            "ctr": 1.6,
             "convAmt": 0,
-            "clkCnt": 18,
+            "clkCnt": 77,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.1,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 1070,
-            "salesAmt": 24242
+            "impCnt": 4816,
+            "salesAmt": 83939
           }
         ]
       },
@@ -105296,16 +105296,16 @@
             "salesAmt": 31651
           },
           {
-            "ctr": 1.29,
+            "ctr": 1.07,
             "convAmt": 0,
-            "clkCnt": 7,
+            "clkCnt": 33,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 6.8,
+            "avgRnk": 7.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 543,
-            "salesAmt": 6102
+            "impCnt": 3098,
+            "salesAmt": 27540
           }
         ]
       },
@@ -106424,10 +106424,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 2036,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2035,
+        "expectCost": 445,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-11-05T05:30:30.000Z",
@@ -106448,7 +106448,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 557,
+        "expectCost": 1016,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-11-08T05:10:19.000Z",
@@ -106810,16 +106810,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 5.41,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.2,
+            "avgRnk": 4.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 5,
-            "salesAmt": 0
+            "impCnt": 37,
+            "salesAmt": 2481
           }
         ]
       },
@@ -107176,16 +107176,16 @@
             "salesAmt": 7243
           },
           {
-            "ctr": 0,
+            "ctr": 0.87,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.2,
+            "avgRnk": 3,
             "dateEnd": "2026-10-03",
-            "impCnt": 30,
-            "salesAmt": 0
+            "impCnt": 231,
+            "salesAmt": 2066
           }
         ]
       }
@@ -107332,10 +107332,10 @@
         "usePeriod": false,
         "dailyBudget": 90000,
         "useDailyBudget": true,
-        "totalChargeCost": 69302,
+        "totalChargeCost": 66737,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 679,
+        "expectCost": 428,
         "migType": 0,
         "delFlag": false,
         "regTm": "2021-04-09T05:58:17.000Z",
@@ -107377,7 +107377,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 6614,
+        "expectCost": 1412,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-03-26T06:51:14.000Z",
@@ -109956,16 +109956,16 @@
             "salesAmt": 90929
           },
           {
-            "ctr": 3.1,
+            "ctr": 2.83,
             "convAmt": 0,
-            "clkCnt": 25,
+            "clkCnt": 38,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 1.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 807,
-            "salesAmt": 61728
+            "impCnt": 1345,
+            "salesAmt": 89421
           }
         ]
       },
@@ -110688,16 +110688,16 @@
             "salesAmt": 13854
           },
           {
-            "ctr": 0,
+            "ctr": 1.26,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.2,
+            "avgRnk": 2.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 42,
-            "salesAmt": 0
+            "impCnt": 239,
+            "salesAmt": 10324
           }
         ]
       },
@@ -111313,10 +111313,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 1197,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 325,
+        "expectCost": 283,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-12-09T08:21:04.000Z",
@@ -111334,10 +111334,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 3654,
+        "totalChargeCost": 4334,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 825,
+        "expectCost": 706,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-12-09T09:02:13.000Z",
@@ -115380,16 +115380,16 @@
             "salesAmt": 4173
           },
           {
-            "ctr": 0.88,
-            "convAmt": 0,
-            "clkCnt": 1,
-            "ror": 0,
+            "ctr": 1.74,
+            "convAmt": 90700,
+            "clkCnt": 15,
+            "ror": 1643.11,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 5.8,
+            "ccnt": 7,
+            "avgRnk": 4.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 114,
-            "salesAmt": 365
+            "impCnt": 861,
+            "salesAmt": 5520
           }
         ]
       },
@@ -115746,16 +115746,16 @@
             "salesAmt": 9369
           },
           {
-            "ctr": 0.54,
-            "convAmt": 91000,
-            "clkCnt": 2,
-            "ror": 3217.08,
+            "ctr": 0.73,
+            "convAmt": 180000,
+            "clkCnt": 7,
+            "ror": 2054.35,
             "dateStart": "2026-10-03",
-            "ccnt": 1,
-            "avgRnk": 10.3,
+            "ccnt": 2,
+            "avgRnk": 10.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 373,
-            "salesAmt": 2829
+            "impCnt": 962,
+            "salesAmt": 8762
           }
         ]
       },
@@ -116112,16 +116112,16 @@
             "salesAmt": 55
           },
           {
-            "ctr": 0,
+            "ctr": 6.78,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.5,
+            "avgRnk": 2.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 4,
-            "salesAmt": 0
+            "impCnt": 59,
+            "salesAmt": 220
           }
         ]
       }
@@ -116143,10 +116143,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 6479,
+        "totalChargeCost": 7361,
         "status": "PAUSED",
         "statusReason": "CAMPAIGN_LIMITED_BY_BUDGET",
-        "expectCost": 6478,
+        "expectCost": 3163,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-06-09T03:45:35.000Z",
@@ -116185,7 +116185,7 @@
         "usePeriod": false,
         "dailyBudget": 500,
         "useDailyBudget": true,
-        "totalChargeCost": 0,
+        "totalChargeCost": 55,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
         "expectCost": 55,
@@ -117288,9 +117288,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 6,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -117392,10 +117392,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 0,
+        "totalChargeCost": 389,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 91,
+        "expectCost": 194,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-01-27T00:42:09.000Z",
@@ -118984,16 +118984,16 @@
             "salesAmt": 478
           },
           {
-            "ctr": 0,
+            "ctr": 1.82,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.3,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 8,
-            "salesAmt": 0
+            "impCnt": 55,
+            "salesAmt": 92
           }
         ]
       },
@@ -120872,10 +120872,10 @@
         "usePeriod": false,
         "dailyBudget": 80000,
         "useDailyBudget": true,
-        "totalChargeCost": 6524,
+        "totalChargeCost": 1569,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 412,
+        "expectCost": 254,
         "migType": 0,
         "delFlag": false,
         "regTm": "2018-05-14T01:40:15.000Z",
@@ -120936,10 +120936,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 8481,
+        "totalChargeCost": 2666,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 268,
+        "expectCost": 649,
         "migType": 0,
         "delFlag": false,
         "regTm": "2016-10-18T01:46:21.000Z",
@@ -120948,7 +120948,7 @@
         "sharedBudgetName": "벌크 / 전환 20만원",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 200000,
-        "sharedBudgetExpectCost": 268,
+        "sharedBudgetExpectCost": 649,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -120964,10 +120964,10 @@
         "usePeriod": false,
         "dailyBudget": 200000,
         "useDailyBudget": true,
-        "totalChargeCost": 2897,
+        "totalChargeCost": 3711,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 396,
+        "expectCost": 1009,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-04-13T00:38:51.000Z",
@@ -120976,7 +120976,7 @@
         "sharedBudgetName": "벌크 / 전환 20만원",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 200000,
-        "sharedBudgetExpectCost": 268,
+        "sharedBudgetExpectCost": 649,
         "sharedBudgetLock": false,
         "numberInUse": 2
       },
@@ -121033,10 +121033,10 @@
         "usePeriod": false,
         "dailyBudget": 20000,
         "useDailyBudget": true,
-        "totalChargeCost": 346,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 172,
+        "expectCost": 254,
         "migType": 0,
         "delFlag": false,
         "regTm": "2022-10-19T07:41:12.000Z",
@@ -121786,16 +121786,16 @@
             "salesAmt": 69136
           },
           {
-            "ctr": 1.2,
-            "convAmt": 0,
-            "clkCnt": 15,
-            "ror": 0,
+            "ctr": 0.77,
+            "convAmt": 51200,
+            "clkCnt": 114,
+            "ror": 91.32,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 3.5,
+            "ccnt": 2,
+            "avgRnk": 3.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 1254,
-            "salesAmt": 4896
+            "impCnt": 14739,
+            "salesAmt": 56064
           }
         ]
       },
@@ -122524,9 +122524,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.5,
+            "avgRnk": 5.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 66,
+            "impCnt": 410,
             "salesAmt": 0
           }
         ]
@@ -122884,16 +122884,16 @@
             "salesAmt": 36702
           },
           {
-            "ctr": 1.45,
-            "convAmt": 36900,
-            "clkCnt": 9,
-            "ror": 516.43,
+            "ctr": 1.38,
+            "convAmt": 975700,
+            "clkCnt": 67,
+            "ror": 1730.27,
             "dateStart": "2026-10-03",
-            "ccnt": 1,
-            "avgRnk": 4.9,
+            "ccnt": 14,
+            "avgRnk": 4.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 621,
-            "salesAmt": 7145
+            "impCnt": 4845,
+            "salesAmt": 56390
           }
         ]
       },
@@ -123250,16 +123250,16 @@
             "salesAmt": 8968
           },
           {
-            "ctr": 0.28,
-            "convAmt": 109800,
-            "clkCnt": 6,
-            "ror": 4793.13,
+            "ctr": 0.32,
+            "convAmt": 338300,
+            "clkCnt": 39,
+            "ror": 2351.54,
             "dateStart": "2026-10-03",
-            "ccnt": 1,
-            "avgRnk": 4.8,
+            "ccnt": 6,
+            "avgRnk": 4.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 2140,
-            "salesAmt": 2291
+            "impCnt": 12193,
+            "salesAmt": 14386
           }
         ]
       },
@@ -124348,16 +124348,16 @@
             "salesAmt": 1420
           },
           {
-            "ctr": 3.64,
+            "ctr": 0.99,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.1,
+            "avgRnk": 1.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 55,
-            "salesAmt": 344
+            "impCnt": 403,
+            "salesAmt": 863
           }
         ]
       },
@@ -158294,10 +158294,10 @@
         "usePeriod": false,
         "dailyBudget": 200000,
         "useDailyBudget": true,
-        "totalChargeCost": 6261,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1344,
+        "expectCost": 99,
         "migType": 0,
         "delFlag": false,
         "regTm": "2016-06-22T04:20:10.000Z",
@@ -158659,16 +158659,16 @@
             "salesAmt": 91187
           },
           {
-            "ctr": 3.45,
+            "ctr": 1.41,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 9,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 4.4,
+            "avgRnk": 4,
             "dateEnd": "2026-10-03",
-            "impCnt": 29,
-            "salesAmt": 891
+            "impCnt": 637,
+            "salesAmt": 24559
           }
         ]
       }
@@ -160245,10 +160245,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 5590,
+        "totalChargeCost": 4395,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2214,
+        "expectCost": 675,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-02-11T06:01:22.000Z",
@@ -160290,7 +160290,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2030,
+        "expectCost": 77,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-02-14T08:37:34.000Z",
@@ -160652,16 +160652,16 @@
             "salesAmt": 87848
           },
           {
-            "ctr": 2.53,
+            "ctr": 0.07,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 124,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.4,
+            "avgRnk": 1.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 79,
-            "salesAmt": 3374
+            "impCnt": 187701,
+            "salesAmt": 78308
           }
         ]
       },
@@ -161384,16 +161384,16 @@
             "salesAmt": 2030
           },
           {
-            "ctr": 0,
+            "ctr": 6.52,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 6,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
-            "salesAmt": 0
+            "impCnt": 92,
+            "salesAmt": 6307
           }
         ]
       }
@@ -161414,10 +161414,10 @@
         "usePeriod": false,
         "dailyBudget": 10000000,
         "useDailyBudget": true,
-        "totalChargeCost": 3252,
+        "totalChargeCost": 1172,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1207,
+        "expectCost": 1171,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-07-16T04:15:36.000Z",
@@ -161438,7 +161438,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 5361,
+        "expectCost": 4839,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-04-30T11:41:31.000Z",
@@ -161456,10 +161456,10 @@
         "usePeriod": false,
         "dailyBudget": 100000,
         "useDailyBudget": true,
-        "totalChargeCost": 8737,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 4437,
+        "expectCost": 4297,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-05-01T00:39:07.000Z",
@@ -161821,16 +161821,16 @@
             "salesAmt": 16917
           },
           {
-            "ctr": 1,
+            "ctr": 0.81,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 9,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 2.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 201,
-            "salesAmt": 2043
+            "impCnt": 1118,
+            "salesAmt": 22402
           }
         ]
       },
@@ -162187,16 +162187,16 @@
             "salesAmt": 7080
           },
           {
-            "ctr": 0,
+            "ctr": 5.71,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2,
+            "avgRnk": 2.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 8,
-            "salesAmt": 0
+            "impCnt": 35,
+            "salesAmt": 10090
           }
         ]
       },
@@ -162553,16 +162553,16 @@
             "salesAmt": 4713
           },
           {
-            "ctr": 28.57,
+            "ctr": 6.12,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.9,
+            "avgRnk": 3.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 7,
-            "salesAmt": 8736
+            "impCnt": 49,
+            "salesAmt": 13033
           }
         ]
       }
@@ -162807,7 +162807,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1264,
+        "expectCost": 1030,
         "migType": 0,
         "delFlag": false,
         "regTm": "2019-12-18T02:53:11.000Z",
@@ -162895,7 +162895,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 642,
+        "expectCost": 4112,
         "migType": 0,
         "delFlag": false,
         "regTm": "2021-10-27T06:29:26.000Z",
@@ -162917,7 +162917,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 2903,
+        "expectCost": 388,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-01-31T00:41:22.000Z",
@@ -163068,10 +163068,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 0,
+        "totalChargeCost": 2276,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1432,
+        "expectCost": 1493,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-12-04T00:20:05.000Z",
@@ -163461,9 +163461,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.1,
+            "avgRnk": 1.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 16,
+            "impCnt": 169,
             "salesAmt": 0
           }
         ]
@@ -163827,9 +163827,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.8,
+            "avgRnk": 1.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 6,
+            "impCnt": 76,
             "salesAmt": 0
           }
         ]
@@ -164193,9 +164193,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3,
+            "avgRnk": 2.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 2,
+            "impCnt": 6,
             "salesAmt": 0
           }
         ]
@@ -164559,9 +164559,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 5.3,
+            "avgRnk": 4.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 24,
+            "impCnt": 83,
             "salesAmt": 0
           }
         ]
@@ -164925,9 +164925,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1,
+            "avgRnk": 1.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 3,
+            "impCnt": 8,
             "salesAmt": 0
           }
         ]
@@ -166389,9 +166389,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 5.8,
+            "avgRnk": 2.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 4,
+            "impCnt": 17,
             "salesAmt": 0
           }
         ]
@@ -166757,7 +166757,7 @@
             "ccnt": 0,
             "avgRnk": 1.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 11,
+            "impCnt": 66,
             "salesAmt": 0
           }
         ]
@@ -167115,16 +167115,16 @@
             "salesAmt": 1264
           },
           {
-            "ctr": 0,
+            "ctr": 0.58,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.2,
+            "avgRnk": 1.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 56,
-            "salesAmt": 0
+            "impCnt": 347,
+            "salesAmt": 1610
           }
         ]
       },
@@ -167487,9 +167487,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.1,
+            "avgRnk": 1.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 8,
+            "impCnt": 36,
             "salesAmt": 0
           }
         ]
@@ -167853,9 +167853,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.5,
+            "avgRnk": 1.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 13,
+            "impCnt": 43,
             "salesAmt": 0
           }
         ]
@@ -168219,9 +168219,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 68,
+            "avgRnk": 14.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 1,
+            "impCnt": 5,
             "salesAmt": 0
           }
         ]
@@ -168579,16 +168579,16 @@
             "salesAmt": 642
           },
           {
-            "ctr": 0,
+            "ctr": 0.18,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2,
+            "avgRnk": 1.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 83,
-            "salesAmt": 0
+            "impCnt": 543,
+            "salesAmt": 4113
           }
         ]
       },
@@ -168945,16 +168945,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 0.47,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.7,
+            "avgRnk": 1.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 43,
-            "salesAmt": 0
+            "impCnt": 211,
+            "salesAmt": 388
           }
         ]
       },
@@ -169317,9 +169317,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 2,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 1,
             "salesAmt": 0
           }
         ]
@@ -169683,9 +169683,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.3,
+            "avgRnk": 1.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 3,
+            "impCnt": 11,
             "salesAmt": 0
           }
         ]
@@ -170049,9 +170049,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2,
+            "avgRnk": 1.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 4,
+            "impCnt": 13,
             "salesAmt": 0
           }
         ]
@@ -170415,9 +170415,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.2,
+            "avgRnk": 1.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 5,
+            "impCnt": 37,
             "salesAmt": 0
           }
         ]
@@ -170783,7 +170783,7 @@
             "ccnt": 0,
             "avgRnk": 1,
             "dateEnd": "2026-10-03",
-            "impCnt": 2,
+            "impCnt": 7,
             "salesAmt": 0
           }
         ]
@@ -171147,9 +171147,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.4,
+            "avgRnk": 1.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 5,
+            "impCnt": 15,
             "salesAmt": 0
           }
         ]
@@ -171507,16 +171507,16 @@
             "salesAmt": 11568
           },
           {
-            "ctr": 0,
+            "ctr": 0.1,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 1.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 237,
-            "salesAmt": 0
+            "impCnt": 1052,
+            "salesAmt": 579
           }
         ]
       },
@@ -171879,9 +171879,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 4,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 12,
             "salesAmt": 0
           }
         ]
@@ -171908,10 +171908,10 @@
         "usePeriod": false,
         "dailyBudget": 70000,
         "useDailyBudget": true,
-        "totalChargeCost": 16136,
+        "totalChargeCost": 7459,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1183,
+        "expectCost": 1743,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-02-26T00:14:14.000Z",
@@ -172275,14 +172275,14 @@
           {
             "ctr": 1.35,
             "convAmt": 0,
-            "clkCnt": 10,
+            "clkCnt": 56,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.1,
+            "avgRnk": 1.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 743,
-            "salesAmt": 10964
+            "impCnt": 4151,
+            "salesAmt": 67983
           }
         ]
       }
@@ -172387,7 +172387,7 @@
         "usePeriod": false,
         "dailyBudget": 9000,
         "useDailyBudget": true,
-        "totalChargeCost": 178,
+        "totalChargeCost": 77,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
         "expectCost": 77,
@@ -172408,10 +172408,10 @@
         "usePeriod": false,
         "dailyBudget": 600,
         "useDailyBudget": true,
-        "totalChargeCost": 187,
+        "totalChargeCost": 110,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 77,
+        "expectCost": 110,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-04-16T07:40:52.000Z",
@@ -173976,7 +173976,7 @@
             "ccnt": 0,
             "avgRnk": 3,
             "dateEnd": "2026-10-03",
-            "impCnt": 1,
+            "impCnt": 2,
             "salesAmt": 0
           }
         ]
@@ -174334,16 +174334,16 @@
             "salesAmt": 187
           },
           {
-            "ctr": 0,
+            "ctr": 0.95,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 2,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 21.5,
+            "avgRnk": 16.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 55,
-            "salesAmt": 0
+            "impCnt": 210,
+            "salesAmt": 187
           }
         ]
       },
@@ -174700,16 +174700,16 @@
             "salesAmt": 368
           },
           {
-            "ctr": 0.13,
+            "ctr": 0.12,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 14,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.1,
+            "avgRnk": 3.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 1570,
-            "salesAmt": 178
+            "impCnt": 11583,
+            "salesAmt": 1184
           }
         ]
       },
@@ -175066,16 +175066,16 @@
             "salesAmt": 374
           },
           {
-            "ctr": 0.11,
+            "ctr": 0.05,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.8,
+            "avgRnk": 2.5,
             "dateEnd": "2026-10-03",
-            "impCnt": 928,
-            "salesAmt": 110
+            "impCnt": 5744,
+            "salesAmt": 297
           }
         ]
       },
@@ -183124,9 +183124,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 1,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 1,
             "salesAmt": 0
           }
         ]
@@ -183190,7 +183190,7 @@
         "usePeriod": false,
         "dailyBudget": 2000,
         "useDailyBudget": true,
-        "totalChargeCost": 87,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
         "expectCost": 86,
@@ -183211,10 +183211,10 @@
         "usePeriod": false,
         "dailyBudget": 1500,
         "useDailyBudget": true,
-        "totalChargeCost": 135,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 134,
+        "expectCost": 481,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-03-06T04:16:02.000Z",
@@ -183603,9 +183603,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 8.4,
+            "avgRnk": 3.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 19,
+            "impCnt": 111,
             "salesAmt": 0
           }
         ]
@@ -184329,15 +184329,15 @@
             "salesAmt": 1260
           },
           {
-            "ctr": 0.37,
+            "ctr": 0.1,
             "convAmt": 0,
             "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 7.9,
+            "avgRnk": 7.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 273,
+            "impCnt": 984,
             "salesAmt": 87
           }
         ]
@@ -184695,16 +184695,16 @@
             "salesAmt": 550
           },
           {
-            "ctr": 0.09,
+            "ctr": 0.05,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 3,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 5.9,
+            "avgRnk": 6.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 1108,
-            "salesAmt": 135
+            "impCnt": 5755,
+            "salesAmt": 1063
           }
         ]
       },
@@ -185067,9 +185067,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 11.4,
+            "avgRnk": 5.4,
             "dateEnd": "2026-10-03",
-            "impCnt": 14,
+            "impCnt": 81,
             "salesAmt": 0
           }
         ]
@@ -185095,7 +185095,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 107,
+        "expectCost": 1191,
         "migType": 0,
         "delFlag": false,
         "regTm": "2020-06-03T12:43:08.000Z",
@@ -185113,10 +185113,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 7714,
+        "totalChargeCost": 12779,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 4125,
+        "expectCost": 2475,
         "migType": 0,
         "delFlag": false,
         "regTm": "2021-12-13T10:06:13.000Z",
@@ -185134,10 +185134,10 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 31939,
+        "totalChargeCost": 6789,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 7251,
+        "expectCost": 6788,
         "migType": 0,
         "delFlag": false,
         "regTm": "2022-01-05T06:37:39.000Z",
@@ -185499,16 +185499,16 @@
             "salesAmt": 3166
           },
           {
-            "ctr": 0,
+            "ctr": 4.23,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 9,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 8.6,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 17,
-            "salesAmt": 0
+            "impCnt": 213,
+            "salesAmt": 7105
           }
         ]
       },
@@ -185865,16 +185865,16 @@
             "salesAmt": 89019
           },
           {
-            "ctr": 2.94,
+            "ctr": 6.2,
             "convAmt": 0,
-            "clkCnt": 2,
+            "clkCnt": 39,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.7,
+            "avgRnk": 2.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 68,
-            "salesAmt": 7714
+            "impCnt": 629,
+            "salesAmt": 124107
           }
         ]
       },
@@ -186231,16 +186231,16 @@
             "salesAmt": 55385
           },
           {
-            "ctr": 15.63,
+            "ctr": 6.76,
             "convAmt": 0,
-            "clkCnt": 5,
+            "clkCnt": 19,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 3.1,
+            "avgRnk": 2.9,
             "dateEnd": "2026-10-03",
-            "impCnt": 32,
-            "salesAmt": 24685
+            "impCnt": 281,
+            "salesAmt": 73392
           }
         ]
       }
@@ -186376,7 +186376,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 77,
+        "expectCost": 128,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-07-08T10:57:53.000Z",
@@ -186385,7 +186385,7 @@
         "sharedBudgetName": "AI탭",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 10000,
-        "sharedBudgetExpectCost": 77,
+        "sharedBudgetExpectCost": 128,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -186412,7 +186412,7 @@
         "sharedBudgetName": "AI탭",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 10000,
-        "sharedBudgetExpectCost": 77,
+        "sharedBudgetExpectCost": 128,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -186427,7 +186427,7 @@
         "usePeriod": false,
         "dailyBudget": 0,
         "useDailyBudget": false,
-        "totalChargeCost": 77,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
         "expectCost": 77,
@@ -186439,7 +186439,7 @@
         "sharedBudgetName": "AI탭",
         "sharedBudgetDeliveryMethod": "ACCELERATED",
         "sharedDailyBudget": 10000,
-        "sharedBudgetExpectCost": 77,
+        "sharedBudgetExpectCost": 128,
         "sharedBudgetLock": false,
         "numberInUse": 3
       },
@@ -188451,16 +188451,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 7.14,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.7,
+            "avgRnk": 2.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 3,
-            "salesAmt": 0
+            "impCnt": 14,
+            "salesAmt": 129
           }
         ]
       },
@@ -188823,9 +188823,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 2.6,
+            "avgRnk": 1.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 9,
+            "impCnt": 31,
             "salesAmt": 0
           }
         ]
@@ -189183,7 +189183,7 @@
             "salesAmt": 0
           },
           {
-            "ctr": 25,
+            "ctr": 2.86,
             "convAmt": 0,
             "clkCnt": 1,
             "ror": 0,
@@ -189191,7 +189191,7 @@
             "ccnt": 0,
             "avgRnk": 1.8,
             "dateEnd": "2026-10-03",
-            "impCnt": 4,
+            "impCnt": 35,
             "salesAmt": 77
           }
         ]
@@ -192147,10 +192147,10 @@
         "usePeriod": false,
         "dailyBudget": 30000,
         "useDailyBudget": true,
-        "totalChargeCost": 6970,
+        "totalChargeCost": 1684,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 86,
+        "expectCost": 861,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-08-16T07:54:37.000Z",
@@ -192190,10 +192190,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 2059,
+        "totalChargeCost": 592,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 635,
+        "expectCost": 591,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-07-09T12:40:49.000Z",
@@ -192215,7 +192215,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1333,
+        "expectCost": 828,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-10-11T00:56:44.000Z",
@@ -192237,7 +192237,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 490,
+        "expectCost": 671,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-12-03T03:10:32.000Z",
@@ -192259,7 +192259,7 @@
         "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 1491,
+        "expectCost": 1482,
         "migType": 0,
         "delFlag": false,
         "regTm": "2025-11-12T01:11:15.000Z",
@@ -192299,10 +192299,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 738,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 737,
+        "expectCost": 641,
         "migType": 0,
         "delFlag": false,
         "regTm": "2024-06-14T05:18:20.000Z",
@@ -192320,10 +192320,10 @@
         "usePeriod": false,
         "dailyBudget": 10000,
         "useDailyBudget": true,
-        "totalChargeCost": 343,
+        "totalChargeCost": 0,
         "status": "ELIGIBLE",
         "statusReason": "ELIGIBLE",
-        "expectCost": 342,
+        "expectCost": 265,
         "migType": 0,
         "delFlag": false,
         "regTm": "2026-07-01T04:36:36.000Z",
@@ -192685,16 +192685,16 @@
             "salesAmt": 20521
           },
           {
-            "ctr": 5.29,
-            "convAmt": 84000,
-            "clkCnt": 9,
-            "ror": 1263.7,
+            "ctr": 2.66,
+            "convAmt": 432000,
+            "clkCnt": 24,
+            "ror": 1965.83,
             "dateStart": "2026-10-03",
-            "ccnt": 4,
-            "avgRnk": 2.3,
+            "ccnt": 5,
+            "avgRnk": 2.2,
             "dateEnd": "2026-10-03",
-            "impCnt": 170,
-            "salesAmt": 6647
+            "impCnt": 902,
+            "salesAmt": 21975
           }
         ]
       },
@@ -193417,16 +193417,16 @@
             "salesAmt": 8872
           },
           {
-            "ctr": 2.13,
-            "convAmt": 0,
-            "clkCnt": 3,
-            "ror": 0,
+            "ctr": 2.02,
+            "convAmt": 249000,
+            "clkCnt": 18,
+            "ror": 4238.46,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 8.8,
+            "ccnt": 1,
+            "avgRnk": 8.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 141,
-            "salesAmt": 1421
+            "impCnt": 889,
+            "salesAmt": 5875
           }
         ]
       },
@@ -193783,16 +193783,16 @@
             "salesAmt": 7057
           },
           {
-            "ctr": 0,
-            "convAmt": 0,
-            "clkCnt": 0,
-            "ror": 0,
+            "ctr": 2.19,
+            "convAmt": 2220000,
+            "clkCnt": 3,
+            "ror": 72538.22,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 5.6,
+            "ccnt": 4,
+            "avgRnk": 6.1,
             "dateEnd": "2026-10-03",
-            "impCnt": 8,
-            "salesAmt": 0
+            "impCnt": 137,
+            "salesAmt": 3060
           }
         ]
       },
@@ -194149,16 +194149,16 @@
             "salesAmt": 0
           },
           {
-            "ctr": 0,
+            "ctr": 1.85,
             "convAmt": 0,
-            "clkCnt": 0,
+            "clkCnt": 1,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 5.5,
+            "avgRnk": 5.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 2,
-            "salesAmt": 0
+            "impCnt": 54,
+            "salesAmt": 671
           }
         ]
       },
@@ -194515,16 +194515,16 @@
             "salesAmt": 7100
           },
           {
-            "ctr": 0,
-            "convAmt": 0,
-            "clkCnt": 0,
-            "ror": 0,
+            "ctr": 0.76,
+            "convAmt": 340000,
+            "clkCnt": 1,
+            "ror": 22932.43,
             "dateStart": "2026-10-03",
-            "ccnt": 0,
-            "avgRnk": 3,
+            "ccnt": 1,
+            "avgRnk": 3.7,
             "dateEnd": "2026-10-03",
-            "impCnt": 7,
-            "salesAmt": 0
+            "impCnt": 132,
+            "salesAmt": 1483
           }
         ]
       },
@@ -194887,9 +194887,9 @@
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 0,
+            "avgRnk": 3.6,
             "dateEnd": "2026-10-03",
-            "impCnt": 0,
+            "impCnt": 12,
             "salesAmt": 0
           }
         ]
@@ -195247,16 +195247,16 @@
             "salesAmt": 643
           },
           {
-            "ctr": 0.16,
+            "ctr": 0.07,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 4,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
             "avgRnk": 1,
             "dateEnd": "2026-10-03",
-            "impCnt": 622,
-            "salesAmt": 738
+            "impCnt": 5911,
+            "salesAmt": 1790
           }
         ]
       },
@@ -195613,16 +195613,16 @@
             "salesAmt": 343
           },
           {
-            "ctr": 0.54,
+            "ctr": 0.41,
             "convAmt": 0,
-            "clkCnt": 1,
+            "clkCnt": 6,
             "ror": 0,
             "dateStart": "2026-10-03",
             "ccnt": 0,
-            "avgRnk": 1.4,
+            "avgRnk": 1.3,
             "dateEnd": "2026-10-03",
-            "impCnt": 184,
-            "salesAmt": 343
+            "impCnt": 1466,
+            "salesAmt": 2380
           }
         ]
       }
